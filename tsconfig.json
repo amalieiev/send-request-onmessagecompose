@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    "typeRoots": ["node_modules/@types"]
+  },
+  "include": ["*.ts"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "lib",
+    "lib-amd"
+  ]
+}
